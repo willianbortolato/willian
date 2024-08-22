@@ -23,8 +23,8 @@ else:
 print()
 print()
 print()
-tupla_numerica = (4, 50, 74, 3, 156)
-if tupla_numerica[0] > 10:
-    print('o numero é maior que 10')
-else:
-    print('o numero é menor que 10')
+def substituir_por_dobro_ou_metade(numero):
+    if numero % 2 == 0:  # Verifica se o número é par
+        return numero * 2  # Substitui por seu dobro
+    else:
+        return numero / 2  # Substitui por sua metade
