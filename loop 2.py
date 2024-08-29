@@ -1,7 +1,7 @@
 #Continue para a próxima iteração se i for 3:
 i = 0
-while i < 6:
+while i < 10:
   i += 1
-  if i == 3:
+  if i % 2 == 0:
     continue
   print(i)
