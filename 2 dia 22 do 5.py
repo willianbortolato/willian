@@ -1,0 +1,29 @@
+#2 – Faça um programa, utilizando Dicionários, que peça para o usuário inserir o
+#nome de três produtos de mercado e seus respectivos preços e os mostre na
+#tela.
+dicionario = {}
+
+
+produto = input('digite o nome do produto:')
+valor = float(input('digite o valor do produo inserido:'))
+dicionario[produto] = valor
+print(dicionario)
+
+produto2 = input('digite o nome do produto:')
+valor2= float(input('digite o valor do produo inserido:'))
+dicionario[produto2] = valor2
+print(dicionario)
+
+produto3 = input('digite o nome do produto:')
+valor3 = float(input('digite o valor do produo inserido:'))
+dicionario[produto3] = valor3
+
+ 
+print(dicionario)
+''
+
+
+
+
+
+
