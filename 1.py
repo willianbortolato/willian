@@ -1,0 +1,14 @@
+#1 – Faça um programa que possua um dicionário, adicione elementos ao
+#dicionário e os mostre na tela. O dicionário deve ser criado vazio.
+dicionario = {}
+opção = input('gostaria de criar alguma chave? sim ou não?')
+
+while True:
+  if opção == "não":
+   break
+  elif opção == "sim":
+   chaves = input('digite uma chave para ser criada dentro do dicionario: ')
+   valores = input('digite um valor para ser colocado dentro da chave: ')
+   dicionario[chaves] = valores
+  opção = input('gostaria de criar alguma chave? sim ou não?')
+print(dicionario)
